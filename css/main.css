@@ -999,7 +999,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: 'Bree Serif, Microsoft YaHei', 'Open Sans', "Microsoft YaHei", sans-serif;
+  font-family: 'Microsoft YaHei', 'Open Sans', "Microsoft YaHei", sans-serif;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1264,7 +1264,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Bree Serif, Microsoft YaHei', 'Open Sans', "Microsoft YaHei", sans-serif;
+  font-family: 'Microsoft YaHei', 'Open Sans', "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1558,7 +1558,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #213dda;
+  background: #ffb1de;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2155,7 +2155,7 @@ body {
 .header {
   position: relative;
   margin: 0 auto;
-  width: 960px;
+  width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
@@ -2211,7 +2211,7 @@ body {
   }
 }
 .container .main-inner {
-  width: 960px;
+  width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
@@ -2227,7 +2227,7 @@ body {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: 700px;
+  width: calc(100% - 260px);
   background: #fff;
   min-height: 700px;
 }
