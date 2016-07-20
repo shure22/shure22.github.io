@@ -185,7 +185,7 @@ th {
 }
 body {
   position: relative;
-  font-family: 'Open Sans', "Microsoft YaHei", sans-serif;
+  font-family: "Microsoft YaHei", Open Sans;
   font-size: 15px;
   line-height: 2;
   color: #555;
@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Open Sans', 'Open Sans', "Microsoft YaHei", sans-serif;
+  font-family: Indie Flower;
 }
 h2,
 h3,
@@ -1306,7 +1306,8 @@ pre .javascript .function {
   }
 }
 .post-more-link {
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-bottom: -30px;
 }
 .post-more-link .btn {
   color: #555;
@@ -1469,7 +1470,7 @@ pre .javascript .function {
   border: 2px solid #bfefff;
   padding: 2px;
 /* start*/
-  border-radius: 90%;
+  border-radius: 50%;
   webkit-transition: 1.4s all;
   moz-transition: 1.4s all;
   ms-transition: 1.4s all;
@@ -1558,7 +1559,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #90db17;
+  background: #a101b4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2075,13 +2076,6 @@ a.search-result {
 .site-pv .busuanzi-value,
 .page-pv .busuanzi-value {
   margin: 0 5px;
-}
-.site-uv {
-  margin-right: 10px;
-}
-.site-uv::after {
-  content: "|";
-  padding-left: 10px;
 }
 .use-motion .post {
   opacity: 0;
