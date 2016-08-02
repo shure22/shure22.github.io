@@ -185,7 +185,7 @@ th {
 }
 body {
   position: relative;
-  font-family: "Microsoft YaHei", Open Sans;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 16px;
   line-height: 2;
   color: #555;
@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: Indie Flower;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -916,6 +916,7 @@ pre .javascript .function {
   margin-top: 10px;
   font-size: 14px;
   color: #cdb38b;
+  font-family: Gloria Hallelujah;
 }
 .use-motion .brand {
   opacity: 0;
@@ -950,7 +951,7 @@ pre .javascript .function {
     margin: 0 -10px;
     padding: 0 10px;
     clear: both;
-    border-top: 1px solid #fc6423;
+    border-top: 1px solid rgba(204,221,187,0.2) 8;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1568,7 +1569,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ddfb18;
+  background: #d66ae7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2237,13 +2238,13 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
   .content-wrap {
     width: 100%;
-    padding: 0px;
+    padding: 5px;
   }
 }
 @media (max-width: 767px) {
   .content-wrap {
     width: 100%;
-    padding: 0px;
+    padding: 5px;
     min-height: auto;
   }
 }
